@@ -30,3 +30,6 @@ per predire la performance in Educazione Fisica in base a dati studente.
    cd First-ML
    uvicorn backend.app:app --reload
    ```
+
+
+La repo non include file .pkl
