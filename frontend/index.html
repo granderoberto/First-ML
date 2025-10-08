@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>PE Performance Predictor</title>
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>PE Performance Predictor</h1>
+    <p class="subtitle">Inserisci i dati e calcola la predizione del modello.</p>
+
+    <form id="predict-form"></form>
+
+    <div class="actions">
+      <button id="predict-btn" type="button">Predici</button>
+      <button id="fill-btn" type="button" class="secondary">Compila casuale</button>
+      <button id="reset-btn" type="button" class="secondary">Reset</button>
+    </div>
+
+    <div id="result" class="result hidden"></div>
+    <h2 style="margin-top:0;">🧠 Predizione tramite linguaggio naturale</h2>
+
+    <div class="nlp-box">
+      <label for="user-text">🧠 Descrivi lo studente:</label>
+      <textarea id="user-text" placeholder="Esempio: Francesca ha 17 anni, è molto motivata, fa sport 3 volte a settimana e partecipa sempre alle lezioni."></textarea>
+      <button id="parse-btn" type="button">Genera features dal testo</button>
+    </div>
+
+  </div>
+
+
+  <script src="./script.js"></script>
+</body>
+</html>

@@ -1,0 +1,80 @@
+# ===============================
+# PYTHON / FASTAPI BACKEND
+# ===============================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+env/
+venv/
+ENV/
+*.env
+*.venv
+
+# Model & ML artifacts
+*.pkl
+*.joblib
+*.h5
+*.model
+*.bin
+*.csv
+*.xlsx
+*.ods
+*.npy
+*.npz
+
+# Build / dist / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Logs and cache
+*.log
+*.out
+*.err
+*.tmp
+*.bak
+*.swp
+*.swo
+.pytest_cache/
+.coverage
+htmlcov/
+.cache/
+
+# ===============================
+# FRONTEND (static site)
+# ===============================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+dist/
+build/
+
+# Local environment overrides
+.env
+.env.*
+!.env.example
+
+# ===============================
+# EDITOR / IDE / OS FILES
+# ===============================
+.vscode/
+.idea/
+*.code-workspace
+
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# ===============================
+# PROJECT-SPECIFIC EXCLUSIONS
+# ===============================
+workspace.code-workspace
+commands.md
+student_pe_performance.*  # eventuali dataset locali
